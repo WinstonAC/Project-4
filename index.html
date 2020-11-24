@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-<title> Simpsons Trivia</title>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <title>Simpsons Trivia</title>
   <body>
     <!-- <div style="background-image: url('https://www.cubebreaker.com/wp-content/uploads/2014/03/simpsons-cartoon.jpg');"> -->
-   <div class ="Simpsons">
+    <div class="Simpsons">
       <h1>Simpsons Trivia</h1>
-      <div class = "wacky simpsons" style="display: block">
-      <button class="big-button js-button"> Start Game </button>
-      <p>Test your Knoweldge on the most famous family from Springfield </p>
+      <div class="wacky simpsons" style="display: block">
+        <button class="big-button js-button">Start Game</button>
+        <p>Test your Knoweldge on the most famous family from Springfield</p>
         <div>
           <img
-          height="auto"
-          width="800px"
-          src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfNJjOfFmDrBTvGVIbj8BmAjWRzHey5q37CQ&usqp=CAU">
+            height="auto"
+            width="800px"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfNJjOfFmDrBTvGVIbj8BmAjWRzHey5q37CQ&usqp=CAU"
+          />
+        </div>
       </div>
-        </div>
-      <div class = "marge-card simpsons" style="display: none">
+
+      <div class="marge-card simpsons" style="display: none">
         <div>
           <img
-          height="500px"
-          width="500px"
-          src ="https://png.pngitem.com/pimgs/s/183-1832952_image-muscular-marge-tapped-out-simpsons-muscle-marge.png">
-        </div>
-        <p> Marge's last name is Née Bouvier </p>
-        <button class = "margeTrue">True</button>
-        <button class = "margeFalse">False</button>
-   </div>
-        <div class = "homer-card "></div> 
-        <div class = "homer-card simpsons" style="display: none">
-          <div>
-            <img
             height="500px"
             width="500px"
-            src ="https://pngimg.com/uploads/simpsons/simpsons_PNG94.png">
-          </div>
-          <p> Homer drinks Ruff Beer </p>
-          <button class = "homerTrue">True</button>
-          <button class = "homerFalse">Fasle</button>
-          <div class = "lisa-card "></div> 
-          <div class = "lisa-card simpsons" style="display: none">
-            <div>
-              <img
+            src="https://png.pngitem.com/pimgs/s/183-1832952_image-muscular-marge-tapped-out-simpsons-muscle-marge.png"
+          />
+        </div>
+        <p>Marge's last name is Née Bouvier</p>
+        <button class="margeTrue">True</button>
+        <button class="margeFalse">False</button>
+      </div>
+
+      <div class="homer-card">
+        <div class="homer-card simpsons" style="display: none">
+          <div>
+            <img
               height="500px"
               width="500px"
-              src ="https://image.pngaaa.com/826/208826-middle.png">
-            </div>
-            <p> Lisa plays the Trumpet </p>
-            <button class = "lisaTrue">True</button>
-            <button class = "lisaFalse">Fasle</button>
-</div>
-      <div class = "bart-card"></div>
-      <div class = "bart-card simpsons" style="display: none">
+              src="https://pngimg.com/uploads/simpsons/simpsons_PNG94.png"
+            />
+          </div>
+          <p>Homer drinks Ruff Beer</p>
+          <button class="homerTrue">True</button>
+          <button class="homerFalse">Fasle</button>
+        </div>
+      </div>
+
+      <div class="lisa-card">
+        <div class="lisa-card simpsons" style="display: none">
+          <div>
+            <img
+              height="500px"
+              width="500px"
+              src="https://image.pngaaa.com/826/208826-middle.png"
+            />
+          </div>
+          <p>Lisa plays the Trumpet</p>
+          <button class="lisaTrue">True</button>
+          <button class="lisaFalse">Fasle</button>
+        </div>
+      </div>
+
+      <div class="bart-card">
+        <div class="bart-card simpsons" style="display: none">
+          <div>
+            <img
+              height="500px"
+              width="500px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQieFDssQRbWLnOwxH79InNmfn2J-LUmsXt2g&usqp=CAU"
+            />
+          </div>
+          <p>Bart rides a Skateboard</p>
+          <button class="bartTrue">True</button>
+          <button class="bartFalse">Fasle</button>
+        </div>
+      </div>
+      <div class="family-card simpsons" style="display: none">
         <div>
           <img
-          height="500px"
-          width="500px"
-          src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQieFDssQRbWLnOwxH79InNmfn2J-LUmsXt2g&usqp=CAU"/>
-          </div>
-        <p> Bart rides a Skateboard </p>
-        <button class = "bartTrue">True</button>
-        <button class = "bartFalse">Fasle</button>
-<div>
-  <div class = "family-card simpsons"></div> -->
-      <div class = "family-card simpsons" style="display: none">
-        <div>
-          <img
-          height="auto"
-          width="500px"
-          src ="https://www.clipartkey.com/mpngs/m/245-2451309_simpsons-couch-gag-contest.png"/>
-          </div>
-<div>
+            height="auto"
+            width="500px"
+            src="https://www.clipartkey.com/mpngs/m/245-2451309_simpsons-couch-gag-contest.png"
+          />
+        </div>
+      </div>f
     </div>
     <script src="script.js"></script>
   </body>

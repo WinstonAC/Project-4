@@ -37,14 +37,14 @@ buttonClickMargeFalse.addEventListener("click", function (e) {
 
 let buttonClickHomerTrue = document.querySelector(".homerTrue");
 buttonClickHomerTrue.addEventListener("click", function (e) {
-  alert("Right!!!");
+  alert("D'oH!!!");
   simpsons[2].style.display = "none";
   simpsons[2].style.display = "block";
 });
 
 let buttonClickHomerFalse = document.querySelector(".homerFalse");
 buttonClickHomerFalse.addEventListener("click", function (e) {
-  alert("D'oH!!!!");
+  alert("Right!!!!");
   simpsons[2].style.display = "none";
   simpsons[3].style.display = "block";
 });
@@ -60,7 +60,7 @@ let buttonClickLisaFalse = document.querySelector(".lisaFalse");
 buttonClickLisaFalse.addEventListener("click", function (e) {
   alert("D'oH!!!!");
   simpsons[3].style.display = "none";
-  simpsons[4].style.display = "block";
+  simpsons[3].style.display = "block";
 });
 
 let buttonClickBartTrue = document.querySelector(".bartTrue");
@@ -76,11 +76,23 @@ buttonClickBartFalse.addEventListener("click", function (e) {
   simpsons[4].style.display = "none";
   simpsons[5].style.display = "block";
 });
-let buttonClickFamilyTrue = document.querySelector(".familyTrue");
-buttonClickFamilyTrue.addEventListener("click", function (e) {
-  alert("Right!!!");
-  simpsons[5].style.display = "none";
-});
+
+// let buttonClickFamilyTrue = document.querySelector(".familyTrue");
+// buttonClickFamilyTrue.addEventListener("click", function (e) {
+//   alert("Great Game!!!");
+//   simpsons[5].style.display = "none";
+//   simpsons[5].style.display = "block";
+// });
+
+// let buttonClickFamilyFalse = document.querySelector(".familyFalse");
+// buttonClickFamilyFalse.addEventListener("click", function (e) {
+//   alert("D'oH!!!!");
+//   simpsons[4].style.display = "none";
+//   simpsons[5].style.display = "block";
+// });
+
+
+
 // let buttonClickRemove = document.querySelector('.js-button-rm');
 // buttonClickRemove.addEventListener("click",
 //   function(e) {
