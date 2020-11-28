@@ -1,6 +1,7 @@
 let simpsons = document.querySelectorAll(".simpsons");
 console.log(simpsons);
 
+
 let buttonClickWackyTrue = document.querySelector(".big-button");
 buttonClickWackyTrue.addEventListener("click", function (e) {
   alert("Hello Everybody!!!");
@@ -31,35 +32,35 @@ buttonClickHomerTrue.addEventListener("click", function (e) {
 
 let buttonClickHomerFalse = document.querySelector(".homerFalse");
 buttonClickHomerFalse.addEventListener("click", function (e) {
-  alert("Right!!!!");
+  alert("Why you litte!!");
   simpsons[2].style.display = "none";
   simpsons[3].style.display = "block";
 });
 
 let buttonClickLisaTrue = document.querySelector(".lisaTrue");
 buttonClickLisaTrue.addEventListener("click", function (e) {
-  alert("Right!!!");
-  simpsons[3].style.display = "none";
-  simpsons[4].style.display = "block";
-});
-
-let buttonClickLisaFalse = document.querySelector(".lisaFalse");
-buttonClickLisaFalse.addEventListener("click", function (e) {
   alert("D'oH!!!!");
   simpsons[3].style.display = "none";
   simpsons[3].style.display = "block";
 });
 
+let buttonClickLisaFalse = document.querySelector(".lisaFalse");
+buttonClickLisaFalse.addEventListener("click", function (e) {
+  alert("You Little Genius");
+  simpsons[3].style.display = "none";
+  simpsons[4].style.display = "block";
+});
+
 let buttonClickBartTrue = document.querySelector(".bartTrue");
 buttonClickBartTrue.addEventListener("click", function (e) {
-  alert("Right!!!");
+  alert("D'oH!!!!");
   simpsons[4].style.display = "none";
-  simpsons[5].style.display = "block";
+  simpsons[4].style.display = "block";
 });
 
 let buttonClickBartFalse = document.querySelector(".bartFalse");
 buttonClickBartFalse.addEventListener("click", function (e) {
-  alert("D'oH!!!!");
+  alert("Cowabunga");
   simpsons[4].style.display = "none";
   simpsons[5].style.display = "block";
 });
