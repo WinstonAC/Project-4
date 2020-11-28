@@ -2,7 +2,7 @@ let simpsons = document.querySelectorAll(".simpsons");
 console.log(simpsons);
 
 
-let buttonClickWackyTrue = document.querySelector(".big-button");
+let buttonClickWackyTrue = document.querySelector(".round-button");
 buttonClickWackyTrue.addEventListener("click", function (e) {
   alert("Hello Everybody!!!");
   simpsons[0].style.display = "none";
